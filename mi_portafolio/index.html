@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hoja de vida - Cristian Camilo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Cristian Camilo</h1>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#acerca">Acerca de mí</a></li>
+        <li><a href="#proyectos">Mis proyectos</a></li>
+        <li><a href="#contacto">Contácteme</a></li>
+      </ul>
+      <button id="modo-btn">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Inicio -->
+  <section id="inicio" class="section inicio">
+    <div class="content">
+      <h2>Hola, soy <span>Cristian Camilo</span></h2>
+      <p>Tecnólogo en análisis y desarrollo de sistemas de información.</p>
+      <a href="#proyectos" class="btn">Ver mis proyectos</a>
+    </div>
+    <img src="images/Foto_Perfil.png" alt="Foto de Cristian Camilo" class="perfil-img" />
+  </section>
+
+  <!-- Acerca de mí -->
+  <section id="acerca" class="section acerca">
+    <h2>Sobre mí</h2>
+    <p>Tecnólogo en Análisis y Desarrollo de Sistemas
+ de Información con experiencia en el sector
+ industrial, donde he trabajado en el análisis,
+ depuración y automatización de datos para
+ mejorar procesos y facilitar la toma de
+ decisiones. Tengo buen manejo de
+ herramientas como Power BI, Python y SQL
+ Server, lo que me ha permitido crear tableros,
+ automatizar tareas repetitivas y gestionar
+ grandes volúmenes de información de forma
+ eficiente.
+ Me adapto fácilmente a nuevas tecnologías
+ y entornos de trabajo. Me gusta resolver
+ problemas, aprender constantemente y
+ aportar ideas que sumen al equipo. Me
+ caracterizo por ser proactivo, colaborador y
+ con buena disposición para ayudar, lo que
+ ha fortalecido el trabajo en equipo y ha
+ contribuido a mejorar los resultados en los
+ proyectos en los que he participado.</p>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="section proyectos">
+    <h2>Mis Proyectos</h2>
+    <div class="proyectos-grid">
+      <div class="proyecto-card">
+        <img src="images/validaciones.png" alt="Proyecto 1">
+        <h3>Gestion de Validaciones de productos</h3>
+        <p>Este proyecto es un sistema integral desarrollado para el control, seguimiento y análisis de las validaciones de productos en proceso de fabricación dentro de Cerámica Italia.
+
+La herramienta permite visualizar en tiempo real el estado de cada producto durante su paso por los hornos y etapas productivas, facilitando la identificación de retrasos, lotes afectados y observaciones de calidad.
+
+Además, toda la información registrada por los operarios se almacena automáticamente en una base de datos, permitiendo realizar análisis posteriores y mantener un histórico completo de cada corrida, lo cual mejora la trazabilidad y la toma de decisiones en el área industrial.</p>
+      </div>
+      <div class="proyecto-card">
+        <img src="images/paradas.png" alt="Proyecto 2">
+        <h3>Identificador de paradas en hornos</h3>
+        <p>Desarrollé un sistema integral para la detección, registro y análisis de vacíos en la entrada de los hornos de baldosas, utilizando sensores instalados en la línea de producción.
+Estos vacíos, incluso cuando ocurrían en lapsos muy cortos, se registraban automáticamente como algún tipo de parada asociada al proceso, permitiendo no solo visualizar el evento en tiempo real, sino también almacenarlo y categorizarlo para análisis posteriores.
+
+El sistema se complementó con un dashboard interactivo desarrollado en Python, Dash, HTML y CSS, donde se muestran indicadores clave de operación, análisis de paradas y Pareto de las principales causas que afectan la eficiencia del horno.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="section contacto">
+    <h2>Contácteme</h2>
+    <form>
+      <input type="text" placeholder="Nombre" required />
+      <input type="email" placeholder="Correo electrónico" required />
+      <textarea placeholder="Mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Cristian Camilo Carrillo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
